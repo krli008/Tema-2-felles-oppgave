@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tema-oppgave 2</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+            <div class="left">
+                <h1>Handleliste</h1>
+            </div>
+                
+    
+        <div class="right">
+            <form id="skjema">
+                <input type="text" id="inpVare">
+
+                <select id="selectKategori">
+                        <option value="mat">Mat</option>
+                        <option value="klaer">Klær</option>
+                        <option value="interior">Interiør</option>
+                </select>
+                
+                <button id="btnSubmit">Legg til</button>
+            </form>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <h3>Mat</h3>
+            <div id="foodList">
+
+            </div>
+        </section>
+
+        <section>
+            <h3>Klær</h3>
+            <div id="clothesList"></div>
+
+        </section>
+
+        <section>
+            <h3>Interiør</h3>
+            <div id="interiorList">
+
+            </div>
+        </section>
+    </main>
+
+<script src="./index.js">
+
+</script>
+</body>
+</html>
